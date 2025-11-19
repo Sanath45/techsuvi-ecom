@@ -1,14 +1,14 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import Home from "./pages/Home";
-import ProductDetails from "./pages/ProductDetails";
-import Cart from "./pages/Cart";
-import Intro from "./pages/Intro";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Home from "./Pages/Home";
+import ProductDetails from "./Pages/ProductDetails";
+import Cart from "./Pages/Cart";
+import Intro from "./Pages/Intro";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import Navbar from "./components/Navbar";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Account from "./pages/Account";
-import Payment from "./pages/Payment";
+import Account from "./Pages/Account";
+import Payment from "./Pages/Payment";
 
 function App() {
   const location = useLocation();
